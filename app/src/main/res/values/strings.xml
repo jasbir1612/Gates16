@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Gates16</string>
+    <string-array name="titles">
+        <item>Event 1</item>
+        <item>Event 2</item>
+        <item>Event 3</item>
+        <item>Event 4</item>
+        <item>Event 5</item>
+        <item>Event 6</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Close</string>
 </resources>
