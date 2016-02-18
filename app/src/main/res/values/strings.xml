@@ -8,6 +8,6 @@
         <item>Event 5</item>
         <item>Event 6</item>
     </string-array>
-    <string name="drawer_open">Open</string>
-    <string name="drawer_closed">Close</string>
+    <string name="openDrawer">Drawer Open</string>
+    <string name="closeDrawer">Drawer Close</string>
 </resources>
