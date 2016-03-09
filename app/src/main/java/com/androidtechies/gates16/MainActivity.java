@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     ViewPager pager = null;
     Toolbar toolbar;
-    String TITLES[] = {"Event 1","Event 2","Event 3","Event 4","Event 5"};
-    int ICONS[] = {R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home};
+    String TITLES[] = {"Technical Events","Cultural Events","Fun Events","Help","Contact us","Feedback"};
+    int ICONS[] = {R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home};
 
-    String NAME = "Gates";
+    String NAME = "GATES'16";
     int PROFILE = R.mipmap.ic_launcher;
 
     RecyclerView mRecyclerView;
