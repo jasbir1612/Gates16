@@ -5,13 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/toolbar"
-             android:id="@+id/toolbar"/>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar"
         android:background="#ffffff">
 
         <android.support.v4.view.ViewPager
@@ -32,5 +28,5 @@
             </android.support.v4.view.PagerTabStrip>
 
         </android.support.v4.view.ViewPager>
-    </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>

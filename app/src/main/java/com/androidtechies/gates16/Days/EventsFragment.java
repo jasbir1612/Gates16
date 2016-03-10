@@ -13,6 +13,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toolbar;
 
 import com.androidtechies.gates16.R;
 import com.androidtechies.gates16.TempAdapter;
@@ -25,8 +26,7 @@ import butterknife.ButterKnife;
  */
 public class EventsFragment extends Fragment {
 
-    @Nullable
-    @Bind(R.id.pager) ViewPager pager;
+    ViewPager pager;
 
     public EventsFragment() {
     }
@@ -35,8 +35,9 @@ public class EventsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_events, container, false);
-        ButterKnife.bind(getActivity(), view);
+        View view = inflater.inflate(R.layout.events_fragment, container, false);
+
+        pager = (ViewPager) view.findViewById(R.id.pager);
 
         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
         pager.setAdapter(new TempAdapter(fragmentManager));

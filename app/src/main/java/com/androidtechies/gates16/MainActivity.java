@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                                 .replace(R.id.container, new HomeFragment())
                                 .commit();
                         break;
-                    case R.id.societies:
+                    case R.id.events:
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.container, new EventsFragment())
                                 .commit();
