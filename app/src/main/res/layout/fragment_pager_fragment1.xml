@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.androidtechies.gates16.home_pager.PagerFragment1">
+    tools:context="com.androidtechies.fragments.PagerFirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -1,4 +1,4 @@
-package com.androidtechies.gates16.home_pager;
+package com.androidtechies.fragments;
 
 
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import com.androidtechies.gates16.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PagerFragment1 extends Fragment {
+public class PagerFirstFragment extends Fragment {
 
 
 

@@ -1,4 +1,4 @@
-package com.androidtechies.gates16.home_pager;
+package com.androidtechies.fragments;
 
 
 import android.os.Bundle;
@@ -12,17 +12,12 @@ import com.androidtechies.gates16.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PagerFragment2 extends Fragment {
-
-
-    public PagerFragment2() {
-        // Required empty public constructor
-    }
+public class PagerThirdFragment extends Fragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_pager_fragment2, container, false);
+        return inflater.inflate(R.layout.fragment_pager_fragment3, container, false);
     }
 
 }
