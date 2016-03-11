@@ -12,6 +12,7 @@ import android.view.View;
 
 import com.androidtechies.fragments.EventsFragment;
 import com.androidtechies.fragments.HomeFragment;
+import com.androidtechies.fragments.RegistrationFragment;
 import com.androidtechies.fragments.SponsorFragment;
 
 import butterknife.Bind;
@@ -58,7 +59,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.events:   getSupportFragmentManager().beginTransaction().replace(R.id.container, new EventsFragment()).commit();
                                         break;
 
-                    case R.id.sponsers:   getSupportFragmentManager().beginTransaction().replace(R.id.container, new SponsorFragment()).commit();
+                    case R.id.sponsers: getSupportFragmentManager().beginTransaction().replace(R.id.container, new SponsorFragment()).commit();
+                                        break;
+
+                    case R.id.register: getSupportFragmentManager().beginTransaction().replace(R.id.container, new RegistrationFragment()).commit();
                                         break;
                 }
                 Drawer.closeDrawers();

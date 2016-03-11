@@ -67,7 +67,7 @@ public class DayFirstFragment extends Fragment implements SwipeRefreshLayout.OnR
                 {   e.printStackTrace();
                 }
                 finally
-                {   Toast.makeText(context,"If you see this toast, You are yet to go.",Toast.LENGTH_SHORT).show();
+                {   //Toast.makeText(context,"If you see this toast, You are yet to go.",Toast.LENGTH_SHORT).show();
                 }
             }
         });

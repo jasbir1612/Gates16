@@ -11,13 +11,13 @@
             android:icon="@drawable/ic_home"
             android:title="Events"/>
         <item
-            android:id="@+id/societies"
-            android:icon="@drawable/ic_home"
-            android:title="Societies"/>
-        <item
             android:id="@+id/sponsers"
             android:icon="@drawable/ic_home"
             android:title="Sponsers"/>
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/ic_home"
+            android:title="Register"/>
 
         <item
            android:id="@+id/sub_header"

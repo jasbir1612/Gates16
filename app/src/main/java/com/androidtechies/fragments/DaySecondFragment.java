@@ -64,7 +64,7 @@ public class DaySecondFragment extends Fragment implements SwipeRefreshLayout.On
                 }
                 finally
                 {
-                    Toast.makeText(context, "If you see this toast, You are yet to go.", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(context, "If you see this toast, You are yet to go.", Toast.LENGTH_SHORT).show();
                 }
             }
         });

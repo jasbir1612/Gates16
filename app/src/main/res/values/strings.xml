@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gates16</string>
+    <string name="app_name">Gates 2k16</string>
     <string-array name="list1">
         <item>Event 1</item>
         <item>Event 2</item>
@@ -10,6 +10,60 @@
     </string-array>
     <string name="openDrawer">Drawer Open</string>
     <string name="closeDrawer">Drawer Close</string>
+    <string name="gtbit">
+        <![CDATA[
+                <p>
+                    <h1 style="color:#FFFFFF;">
+                        Introduction
+                    </h1>
+                   <br/>
+                   <h3>
+                        What is Bash?
+                   </h3>
+                </p>
+                <p>
+                    \t<b>Bash</b> is a command processor that typically runs in a text window
+                    where the user types commands that cause actions. Bash can also read
+                    commands from a file, called a <b>script</b>. Like all Unix shells,
+                    it supports <i>filename globbing (wildcard matching), piping,
+                     command substitution, variables and control structures
+                    for condition-testing and iteration</i>. The keywords, syntax and other basic
+                    features of the language were all copied from sh. Other features, e.g.,
+                    history, were copied from csh and ksh. Bash is a <b>POSIX</b>(Portable Operating System Interface)
+                     shell, but with a number of extensions.
+                </p>
+                <p>
+                    \t<b>Bash</b> was written for the <b>GNU Project</b> by <i>Brian Fox</i>.
+                    It is called <b><u>Bourne again shell</u></b> for many reasons, the first being that
+                    it is the open-source version of the <i>Bourne shell</i> and the second as a pun
+                    on the concept of being born again. Its acronym is also a description of what
+                    the project did, which was to bash together sh, csh and ksh features.
+                </p>
+                <p>
+                    \tEssentially, <b>Bash</b> allows users of Unix-like systems to control the innermost
+                    components of the operating system using text-based commands. Anything you can run
+                    normally on the command line can be put into a script and it will do exactly the same
+                    thing. Similarly, anything you can put into a script can also be run normally on the
+                    command line and it will do exactly the same thing.
+                </p>
+                    \t<b>Bash</b> has a number of extensions and runs on Unix-like operating systems like
+                    Linux and Mac OS X. It was ported to Windows through the Subsystem for UNIX-based
+                    Applications (SUA) and by POSIX emulation using Cygwin or MSYS. It can even be used in MS-DOS.
+                </p>
+                <br/>
+                <p>
+                   <h3>
+                        Why learn Bash?
+                   </h3>
+                </p>
+                <p>
+                    \tBash is better than any standard programming language when it comes to web app deployment,
+                    system administration, automated backups and data crunching. And Bash is better when you want
+                    to run a lot of programs in series. Bash is good for day to day system administration. If you\'re
+                    going to learn how to use a UNIX shell, Bash is probably the best choice.
+                </p>
+            ]]>
+    </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
